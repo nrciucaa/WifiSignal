@@ -48,17 +48,16 @@ For plotting continuously it might be easier to use Python, so here are the step
 - open file
 - use `seek` to go to the line with the signal strength data
 - use `readline` to read the line, `split` to isolate the strength value
-- possibly also convert to float from string
+- convert value to float from string\
 All this can possibly go into a function which when called returns the power value in dBm.
 
-2. Access time using the time module
+2. Access time using the time module\
 Use a loop to store time and signal strength is an array or data frame
 
-3. Continuous plotting using [ProgressPlot](https://pythonawesome.com/create-real-time-plots-in-jupyter-notebooks/)
-Regular plot using matplotlib
+3. Continuous plotting using [ProgressPlot](https://pythonawesome.com/create-real-time-plots-in-jupyter-notebooks/) and regular plot using matplotlib
 
 Errors:
-When running the function accessing `ProgressPlot`, the command terminates with the following error message:
+When running the function accessing `ProgressPlot`, the command terminates with the following error message:\
 ```ValueError: facet_config["plot"]["scale"] must a string```
 
 Resolution:
