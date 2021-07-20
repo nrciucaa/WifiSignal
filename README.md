@@ -24,6 +24,7 @@ You may either download the python notebook and run it on your laptop as you wou
 (OR)
 You can directly run the file through [Google Colaboratory](https://colab.research.google.com)
 If you do not have experience running python notebooks locally, run it using Google Colab
+https://colab.research.google.com/github/nrciucaa/WifiSignal/blob/main/WifiSignal.ipynb
 
 STEP 3 – 
 Create a local connection by following the instructions given here: https://research.google.com/colaboratory/local-runtimes.html
