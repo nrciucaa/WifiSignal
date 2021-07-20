@@ -1,7 +1,7 @@
 # WifiSignal
 Reading and visualizing Wifi signal strength in Linux using Python
 
-STEP 1 — 
+STEP 1 – 
 Dependencies: install the following python packages using pip
 1) numpy
 2) pandas
@@ -18,17 +18,17 @@ $ pip uninstall lrcurve
 $ pip install lrcurve==1.1.0
 ```
 
-STEP 2 — 
+STEP 2 – 
 Python notebook: WifiSignal.ipynb
 You may either download the python notebook and run it on your laptop as you would any python notebook
 (OR)
 You can directly run the file through [Google Colaboratory](https://colab.research.google.com)
 If you do not have experience running python notebooks locally, run it using Google Colab
 
-STEP 3 — 
+STEP 3 – 
 Create a local connection by following the instructions given here: https://research.google.com/colaboratory/local-runtimes.html
 
-STEP 4 — 
+STEP 4 – 
 Read the description on the Python notebook cells and run in sequence
 
 ## What the code does
